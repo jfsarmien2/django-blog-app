@@ -29,15 +29,15 @@
                 </div>
                 <div class="track">
                   <i class="uil uil-users-alt"></i>
-                  <p class="view-count">2500+ views</p>
+                  <p class="view-count">{{ post.view_count }} view{{ post.view_count|pluralize }}</p>
                 </div>
                 <div class="track">
                   <form action="" method="POST">
                     <button type="submit" class="btn btn-info">
                       <i class="uil uil-bookmark-full"></i>
                       <p class="bookmark">Bookmark</p>
-                      <!--                                                                                 REMOVE BOOKMARK
-                          <i class="fa-solid fa-bookmark"></i>                                                                                 -->
+                      <!--                                                                                                             REMOVE BOOKMARK
+                          <i class="fa-solid fa-bookmark"></i>                                                                                                             -->
                     </button>
                   </form>
                 </div>
